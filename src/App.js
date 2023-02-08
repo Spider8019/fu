@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import video from "./bg.mp4"
+import logo from "./logo.png"
 
 function App() {
   const gallery = [{
@@ -73,9 +74,14 @@ function App() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <p className='absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 text-white text-5xl font-bold text-center'>MAXIMIZE PERFORMANCE<br />MINIMIZE IMPACT</p>
+        <p className='absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 text-white text-7xl font-bold text-center uppercase'>Reclaim the<br /> change.</p>
       </div>
       <div className='my-16 text-center w-2/3 mx-auto'>
+        <img
+        className='mx-auto'
+          width="200"
+          height="200"
+          src={logo} alt='Company logo' />
         <p className='text-3xl capitalize font-semibold'>Welcome to EcoSoul, the leading shoe recycling company in India committed to reducing waste and promoting sustainability.</p>
         <p className='text-xl mx-auto'>Through our innovative process, we aim to collect discarded footwear and turn them into high-quality materials for new products. Inspired by the success of the Nike Grind program,  we are today able to divert millions of shoes from landfills every year and reduce our carbon footprint.  We're not only creating a more sustainable future but also promoting a circular economy.
           At EcoSoul, we believe that small steps can make a big impact. That's why we've made it our mission to make shoe recycling accessible and easy for everyone. Whether you're a business looking to reduce your carbon footprint or an individual looking to do your part, we're here to help. Join us on our mission to create a greener world, one shoe at a time !!</p>
